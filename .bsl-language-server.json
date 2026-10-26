@@ -1,0 +1,16 @@
+{
+  "$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json",
+  "language": "ru",
+  "diagnostics": {
+    "parameters": {
+      "MagicNumber": {
+        "authorizedNumbers": "-1,0,1,2,3,30,86400,15"
+      },
+      "Typo": {
+        "userWordsToIgnore": "автозаказом,автозаказа,Автозаказ,непроведенных,Непроведенные,Автозаказа"
+      },
+      "NestedFunctionInParameters": false,
+      "QueryToMissingMetadata": false
+    }
+  }
+}
